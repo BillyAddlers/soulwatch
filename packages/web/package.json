@@ -1,0 +1,17 @@
+{
+  "name": "@soulworker/web",
+  "version": "1.0.0",
+  "description": "A frontend web app for a game called Soulwatch",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "^3.0.0-27447229.20f3171"
+  },
+  "author": "Riichi_Rusdiana##6815",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "soulwatch",
+  "description": "Monorepo to manage web-game called Soulwatch",
+  "main": "index.js",
+  "scripts": {
+    "web": "yarn workspace @soulworker/web",
+    "core": "yarn workspace @soulworker/core",
+    "eslint-config": "yarn workspace @soulworker/eslint-config"
+  },
+  "author": {
+    "name": "Billy Addlers",
+    "alias": "Riichi Rusdiana",
+    "email": "finnsonalca123@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@soulwatch/eslint-config": "1.0.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "ts-node": "^10.5.0"
+  },
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.0.0"
+  }
+}
