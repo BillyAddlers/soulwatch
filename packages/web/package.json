@@ -9,6 +9,9 @@
     "build": "nuxi build",
     "start": "node .output/server/index.mjs"
   },
+  "dependencies": {
+    "nuxt-socket-io": "^3.0.5"
+  },
   "devDependencies": {
     "nuxt3": "^3.0.0-27447229.20f3171"
   },
